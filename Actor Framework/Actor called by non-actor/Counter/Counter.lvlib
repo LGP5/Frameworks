@@ -4,11 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Abstract Messages for Caller" Type="Folder">
-		<Item Name="Decrement_Msg.lvclass" Type="LVClass" URL="../Messages/Decrement_Msg/Decrement_Msg.lvclass"/>
-		<Item Name="Increment_Msg.lvclass" Type="LVClass" URL="../Messages/Increment_Msg/Increment_Msg.lvclass"/>
-		<Item Name="Reset_Msg.lvclass" Type="LVClass" URL="../Messages/Reset_Msg/Reset_Msg.lvclass"/>
-	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Decrement Msg.lvclass" Type="LVClass" URL="../Counter Messages/Decrement Msg/Decrement Msg.lvclass"/>
 		<Item Name="Increment Msg.lvclass" Type="LVClass" URL="../Counter Messages/Increment Msg/Increment Msg.lvclass"/>
