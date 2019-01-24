@@ -22,6 +22,7 @@
 				<Item Name="Start Acquiring (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Acquiring (Reply Payload)--cluster.ctl"/>
 				<Item Name="Stop Acquiring Argument--cluster.ctl" Type="VI" URL="../Stop Acquiring Argument--cluster.ctl"/>
 				<Item Name="Stop Acquiring (Reply Payload)--cluster.ctl" Type="VI" URL="../Stop Acquiring (Reply Payload)--cluster.ctl"/>
+				<Item Name="Wake Up Helper Loop Argument--cluster.ctl" Type="VI" URL="../Wake Up Helper Loop Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -98,6 +99,10 @@
 		<Item Name="Test Clone Registration API.vi" Type="VI" URL="../Clone Registration/Test Clone Registration API.vi"/>
 		<Item Name="Get Module Running State.vi" Type="VI" URL="../Get Module Running State.vi"/>
 		<Item Name="Module Running State--enum.ctl" Type="VI" URL="../Module Running State--enum.ctl"/>
+	</Item>
+	<Item Name="Private Requests" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Wake Up Helper Loop.vi" Type="VI" URL="../Wake Up Helper Loop.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
