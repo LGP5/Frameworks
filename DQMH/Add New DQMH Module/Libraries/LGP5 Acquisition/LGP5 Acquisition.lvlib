@@ -20,6 +20,8 @@
 				<Item Name="Get Module Execution Status Argument--cluster.ctl" Type="VI" URL="../Get Module Execution Status Argument--cluster.ctl"/>
 				<Item Name="Start Acquiring Argument--cluster.ctl" Type="VI" URL="../Start Acquiring Argument--cluster.ctl"/>
 				<Item Name="Start Acquiring (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Acquiring (Reply Payload)--cluster.ctl"/>
+				<Item Name="Stop Acquiring Argument--cluster.ctl" Type="VI" URL="../Stop Acquiring Argument--cluster.ctl"/>
+				<Item Name="Stop Acquiring (Reply Payload)--cluster.ctl" Type="VI" URL="../Stop Acquiring (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,6 +35,7 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Start Acquiring.vi" Type="VI" URL="../Start Acquiring.vi"/>
+			<Item Name="Stop Acquiring.vi" Type="VI" URL="../Stop Acquiring.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -50,6 +53,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Acquisition Started.vi" Type="VI" URL="../Acquisition Started.vi"/>
+		<Item Name="Acquisition Stopped.vi" Type="VI" URL="../Acquisition Stopped.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
