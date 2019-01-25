@@ -109,4 +109,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="DAQ Device.lvlib" Type="Library" URL="../DAQ Device/DAQ Device.lvlib"/>
 </Library>

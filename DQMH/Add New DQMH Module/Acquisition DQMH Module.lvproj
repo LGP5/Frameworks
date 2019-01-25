@@ -17,7 +17,6 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test LGP5 Acquisition API.vi" Type="VI" URL="../Libraries/LGP5 Acquisition/Test LGP5 Acquisition API.vi"/>
 		</Item>
-		<Item Name="DAQ Device.lvlib" Type="Library" URL="../Libraries/DAQ Device/DAQ Device.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
