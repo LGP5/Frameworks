@@ -1,0 +1,643 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+
+<title>Feedback Evaporative Cooler</title>
+<style>
+
+<!--
+
+/***************************************************/
+
+/* MINIMAL STYLES */
+
+/* The following section defines styles that every HTML Help project should need. */
+
+
+
+/* Specifies White Background color */
+
+body {background-color:#FFFFFF; font-family:Verdana, sans-serif; font-size:8pt; color: #000000;}
+
+
+
+/* The default style of P is red to alert you that you need to apply a style class, such as Body. */
+
+P { margin-top:6.00pt; margin-bottom:6.00pt;}
+
+
+
+BR { font-size:4.00pt; }
+
+
+
+/* Use H1 for all topic headings. */
+
+H1 { margin-top:3.00pt; margin-bottom:3.00pt; font-size:150%; font-weight:bold;  }
+
+
+
+/* Use H2 for second-level headings. */
+
+H2 { margin-top:9.00pt; margin-bottom:3.00pt; font-size:125%; font-weight:bold;  }
+
+
+
+/* Use H3 for third-level headings. */
+
+H3 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+
+
+
+/* Use H4 for fourth-level headings. */
+
+H4 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+
+
+
+/* H5 and H6 have the same definition as H4 because you should not need this level of heading in one topic. If you need to use H5 or H6, consider breaking up your topic into more than one topic. */
+
+H5 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+
+H6 { margin-top:6.00pt; margin-bottom:3.00pt; font-size:100%; font-weight:bold;  }
+
+
+
+/* Use the Body style class for normal paragraphs. */
+
+P.Body {  }
+
+
+
+/* Use the Anchor style class for graphic references on a line by themselves. */
+
+P.Anchor { font-size:125%;  }
+
+
+
+/* Use the Indent style classes to indent a paragraph. If you need to indent text below a list item, use <br><br> to start the new paragraph within the same set of <li></li> tags. If you need to indent a list within another list, nest the indented list within the first list's set of <ol></ol> or <ul></ul> tags. */
+
+P.Indent1 { margin-left:12.00pt; margin-bottom:3.00pt;  }
+
+P.Indent2 { margin-left:24.00pt; margin-bottom:3.00pt;  }
+
+P.Indent3 { margin-left:36.00pt; margin-bottom:3.00pt;  }
+
+P.Indent4 { margin-left:48.00pt; margin-bottom:3.00pt;  }
+
+P.Indent5 { margin-left:60.00pt; margin-bottom:3.00pt;  }
+
+
+
+/* Use the LI style for all list items. */
+
+LI { margin-top:3.00pt; margin-bottom:3.00pt; }
+
+
+
+/* Use the OL style for numbered lists. You do not have to type the number for each list item in a numbered list. */
+
+OL { margin-left:22.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; list-style-type: decimal; }
+
+
+
+/* Use the OL style for numbered lists. Nested lists will use the bullet types according to the nesting scheme below */
+
+ol ol {list-style-type:lower-alpha}
+
+ol ol ol {list-style-type:decimal}
+
+ol ol ol ol {list-style-type:lower-alpha}
+
+ol ol ol ol ol {list-style-type:decimal}
+
+ol ol ol ol ol ol {list-style-type:lower-alpha}
+
+ol ol ol ol ol ol ol {list-style-type:decimal}
+
+ol ol ol ol ol ol ol ol {list-style-type:lower-alpha}
+
+
+
+
+
+/* Use the EquationNum style class for numbered lists of equations. You do not have to type the number for each list item in a numbered list. */
+
+OL.EquationNum { margin-left:36.00pt; text-indent:0pt; list-style-type: decimal; }
+
+
+
+/* Use the List-abc style class for lettered lists. You do not have to type the letter for each list item in a lettered list. */
+
+OL.List-abc { margin-left:22.00pt; text-indent:0pt; list-style-type:lower-alpha; }
+
+
+
+/* Use the UL style for bulleted lists. You do not have to type the bullet for each list item in a bulleted list. */
+
+UL { margin-left:22.00pt; text-indent:0pt; margin-top:3.00pt; margin-bottom:3.00pt; list-style-type: disc; }
+
+
+
+/* Use the UL style for bulleted lists. Nested lists will use the bullet types according to the nesting scheme below. */
+
+ul ul {list-style-image: none;list-style-type: circle}
+
+ul ul ul {list-style-image:none;list-style-type:disc}
+
+ul ul ul ul {list-style-image: none;list-style-type: circle}
+
+ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+
+ul ul ul ul ul ul {list-style-image: none;list-style-type: circle}
+
+ul ul ul ul ul ul ul {list-style-image:none;list-style-type:disc}
+
+ul ul ul ul ul ul ul ul ul{list-style-image: none;list-style-type: circle}
+
+
+
+/* Use the List-Box style class for bulleted lists with boxes instead of bullets. You do not have to type the box for each list item in a box list. */
+
+UL.List-Box { list-style-image: none;list-style-type: square}
+
+
+
+Table { font-size:100%; }
+
+
+
+/* Use the Borderless style class for tables that do not need borders, such as for 2-column or 3-column lists with no headings. */
+
+Table.Borderless { border:none; }
+
+
+
+/* Use the Bordered style class for tables that need borders. */
+
+Table.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; }
+
+
+
+/* Use the TD style for table cells in Borderless or Borderless-Wide tables. */
+
+TD { vertical-align:top; padding:3px; }
+
+
+
+/* Use the Bordered style class for table headings and cells in Bordered or Bordered-Wide tables. */
+
+.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; }
+
+
+
+/* Use the Icon style class for table cells that contain note, caution, warning, or tip icons, or LabVIEW datatype terminals. */
+
+TD.Icon { width:40px; }
+
+
+
+/* Use the TH style for table heading cells in Borderless or Borderless-Wide tables. */
+
+TH { font-weight:bold; padding:3px; }
+
+
+
+/* Use the Left-Align style class for table headings and cells that you want to left align instead of center align. */
+
+.Left-Align { text-align:left; }
+
+
+
+/***************************************************/
+
+/* CHARACTER FORMATS */
+
+/* The following section defines character formats that every HTML Help project should need. */
+
+
+
+/* CHARACTER FORMATS Updated to conform with the CSE HTML Validator Pro */
+
+/* The following section defines character formats that every HTML Help project should need. */
+
+
+
+/* Use the Dark-Red format for warnings or cautions. */
+
+.Dark-Red { color: #800000 }
+
+
+
+/* Use the Monospace format for code or syntax examples. */
+
+.Monospace { font-family: Courier New; font-size: 100%; }
+
+
+
+/* Use the Monospace-Bold format for messages and responses that the computer automatically prints to the screen. */
+
+.Monospace-Bold { font-family: Courier New; font-weight: bold; font-size: 100%; }
+
+
+
+/* Use the Monospace-Italic format to denote text that is a placeholder for a word or value that the user must supply. */
+
+.Monospace-Italic { font-family: Courier New; font-style: italic; font-size: 100%; }
+
+
+
+/* small class */
+
+.smallFont { font-size:87.5%; }
+
+
+
+/* Bold class */
+
+.Bold { font-weight: bold; }
+
+
+
+/* Italic class */
+
+.Italic { font-style: italic; }
+
+
+
+/* Use the Platform format to denote a specific platform. */
+
+.Platform { color: #0000FF; font-weight: bold; }
+
+
+
+/* Use the Symbol format for characters not in the Verdana character set. Use this format sparingly. When possible, you should use the correct ASCII code for the symbol or use a graphic to recreate the symbol. */
+
+.Symbol { font-family: Symbol; }
+
+
+
+/* Use the Red-text format to call attention to text that needs  information added or edited by techcomm */
+
+.Red-text {color: #FF0000;}
+
+
+
+/* Use the Green-Underline format for the green defintion in the conventions topic */
+
+.Green-Underline {color: #007700; text-decoration : underline;}
+
+
+
+/* Use the glossButton format for the glossary buttons used in the glossary topic */
+
+.glossButton { font-size:12px; color:black; }
+
+
+
+/* Use for text sections and hyphenated words that should not break at line wraps */
+
+.nobreak{white-space:nowrap}
+
+
+
+/* Use for template instructions. */
+
+.instructions{color:red; font-style:italic}
+
+
+
+/*Use for words and text sections that do not need to be localized */
+
+.DNL { }
+
+
+
+/* The following styles define the color of links. */
+
+a:link { color: #007700 }
+
+a:visited { color: #7F007F }
+
+a:link:hover { color: #FF0000 }
+
+a:link:active { color: #FF0000 }
+
+
+
+/***************************************************
+
+** Forms */
+
+
+
+form { margin-top:0pt; margin-bottom:3pt; color:black; }
+
+select { font-size:100%; color:black; }
+
+
+
+/*******************************************************
+
+** Margins **
+
+** Use these styles for block-level elements inside tables cells or list items where you do not want extra padding at the top or bottom of a cell. */
+
+.noTopMargin { margin-top:0pt;}
+
+.noBottomMargin { margin-bottom:0pt;}
+
+
+
+/***************************************************
+
+** CODE STYLES **
+
+** The following section defines styles that you need to format entire sections of code or syntax examples. If you have just a few words you need to format as a code or syntax example, use the Monospace character format. */
+
+
+
+P.Code { margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+
+P.Code1 { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+
+P.Code2 { margin-left:24.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+
+P.Code3 { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:Courier New;  }
+
+-->
+</style>
+
+<script type="text/javascript"> // define hyperlinks and function for launching a URL in a browser
+
+var L_abstract = "http://digital.ni.com/express.nsf/bycode/exdarc";
+var NO_LOC_AF_Community = "http://digital.ni.com/express.nsf/bycode/exwhyc";
+var NO_LOC_MAL_MVC = "http://digital.ni.com/express.nsf/bycode/exr345";
+var NO_LOC_Large_Apps = "http://digital.ni.com/express.nsf/bycode/exaed9";
+var L_calling_convention = "http://digital.ni.com/express.nsf/bycode/exgs3x";
+var L_evap_coolers = "http://digital.ni.com/express.nsf/bycode/ex25qe";
+var L_hot_swapping = "http://digital.ni.com/express.nsf/bycode/exbyn6";
+var L_mvc = "http://digital.ni.com/express.nsf/bycode/excxhj";
+var L_HAL = "http://digital.ni.com/express.nsf/bycode/exs8dn";
+var L_Adv_Arch = "http://digital.ni.com/express.nsf/bycode/exq58e";
+var L_Core_3 = "http://digital.ni.com/express.nsf/bycode/exnnfy";
+var L_OO_Design = "http://digital.ni.com/express.nsf/bycode/exs545";
+var L_trademarks = "http://digital.ni.com/express.nsf/bycode/rdtrad";
+var L_patents = "http://digital.ni.com/express.nsf/bycode/rdlv17";
+var L_walkthrough = "http://digital.ni.com/express.nsf/bycode/DW_AF";
+
+function WWW(url) 
+	{
+	var urlWindow;
+	urlWindow = window.open(url, "New", "directories=yes,location=yes,menubar=yes,resizable=yes,scrollbars=yes,status=yes,toolbar=yes");
+	}
+</script>
+
+
+</head>
+<body>
+
+<h1>Feedback Evaporative Cooler</h1>
+
+<p class="Body">The Feedback Evaporative Cooler sample project implements an evaporative cooler with hot-swappable hardware, controllers, and user interfaces. The sample project is made up of multiple independently-running VIs, called <em>actors</em>, that represent the user interface, the cooler, its fans, and its water level. Each actor has the ability to pass command-like messages to, and receive such messages from, related actors. The architecture supports expansion for statically or dynamically including more actors.</p>
+
+<table class="Borderless"><tr><td class="Icon"><img src="noloc_note.png"></td><td><strong>Note</strong>&nbsp;&nbsp; This template makes extensive use of LabVIEW classes. Designing an application with the Actor Framework requires familiarity with principles of object-oriented programming in LabVIEW. This document provides the information necessary to understand and modify the Feedback Evaporative Cooler sample project. For more information about designing applications with the Actor Framework, refer to the Actor Framework Whitepaper in the Project Documentation folder of the <strong>Project Explorer</strong> window.</td></tr></table>
+
+<h2>System Requirements</h2>
+<p class="body">LabVIEW Base, Full, or Professional Development System</p>
+
+<h2>Running this Sample Project</h2>
+<ol>
+	<li>In the <strong>Project Explorer</strong> window, open and run <strong>Application&#0187;Application Launcher.lvlib&#0187;Splash Screen.vi.</strong></li>
+	<li>Change the <strong>Desired Temperature</strong> and watch the fans and water pump activate to control the <strong>Actual Temperature</strong>. The controller has a deadband zone of five degrees, which means that if you set the <strong>Desired Temperature</strong> to 75 degrees, the <strong>Actual Temperature</strong> will rise to 80 degrees before the cooling process begins.</li>
+	<li>Control the simulation:
+		<ol>
+			<li>In the <strong>Project Explorer</strong> window, open <strong>Model&#0187;Simulated Hardware&#0187;Simulated Evaporative Cooler.lvclass&#0187;Simulated Data_Global.vi</strong>.</li>
+			<li>Adjust the <strong>Simulation Inputs</strong> and watch the application respond.</li>
+		</ol>
+	</li>
+	<li>Switch to the programmatic interface by clicking <strong>UI Option 2</strong> in the user interface. The application loads the programmatic controller and user interface into memory. This controller executes a <strong>Program Sequence </strong> of desired temperatures that you cannot modify. You can retake control of the desired temperature by clicking <strong>UI Option 1</strong>.</li>
+	<li>Click <strong>Stop All</strong> to shut down the application.</li>
+</ol>
+
+<h2>Overview</h2>
+
+<p class="Body">The top-level actor loads either a simulated evaporative cooler or a real one and starts the cooler running. The sample project has two controller interfaces, one you can control and one that is pre-programmed, that you can dynamically swap between. Because each evaporative cooler and controller is an actor, you can add coolers and controllers without modifying the majority of the sample project.</p>
+
+<p class="Body">The following list shows the inheritance tree of this sample project and explains the capabilities of each actor:</p>
+
+<ul>
+	<li>Actor (<span class="DNL">Actor.lvclass</span>)&#8212;The ancestor of all actors in LabVIEW.
+	<ul>
+		<li><strong>Application actor</strong> (<span class="DNL">Air Cooler Application.lvclass</span>)&#8212;The actor that represents the application itself. This actor launches the Live User Controller actor and an Evaporative Cooler actor. The specific Evaporative Cooler actor that is launched depends on what is contained in the <span id="Monospace">Air Cooler App.ini</span> configuration file.</li>
+		<li><strong>Timed Loop actor</strong> (<span class="DNL">Timed Loop Actor.lvclass</span>)&#8212;Repeats a process every <em>n</em> milliseconds.
+			<ul>
+				<li><strong>Level Controller actor</strong> (<span class="DNL">Level Controller.lvclass</span>)&#8212;Monitors a variable. This actor takes one action if that variable goes above a threshold and takes a different action if that variable goes below a threshold.
+					<ul>
+						<li><strong>Cooler actor</strong> (<span class="DNL">Cooler.lvclass</span>)&#8212;Monitors the indoor air temperature and starts a cooling process to keep the temperature within a range.
+							<ul>
+								<li><strong>Evaporative Cooler actor</strong> (<span class="DNL">Evaporative Cooler.lvclass</span>)&#8212;Defines an evaporative cooling process, which is a cooling process that can report information about controlling a water pump/dual fan system.
+									<ul>
+										<li><strong>Simulated Evaporative Cooler actor</strong> (<span class="DNL">Simulated Evaporative Cooler.lvclass</span>)&#8212;Defines a simulated evaporative cooler, which is an evaporative cooler that communicates with a simulated fan and a simulated water pump.</li>
+										<li><strong>Hardware Evaporative Cooler actor</strong> (<span class="DNL">HW Evaporative Cooler.lvclass</span>)&#8212;Defines a real evaporative cooler, which is an evaporative cooler that communicates with a real fan and a real water pump.</li>
+									</ul>							
+								</li>
+							</ul>
+						</li>
+						<li><strong>Water Level actor</strong> (<span class="DNL">Water Level.lvclass</span>)&#8212;Represents a water pump.
+							<ul>
+								<li><strong>Simulated Water Level actor</strong> (<span class="DNL">Simulated Water Level.lvclass</span>)&#8212;Simulates a water pump.</li>
+								<li><strong>Hardware Water Level actor</strong>  (<span class="DNL">HW Water Level.lvclass</span>)&#8212;Communicates with a real water pump.</li>
+							</ul>
+						</li>				
+					</ul>			
+				</li>
+				<li><strong>Dual Fan actor</strong> (<span class="DNL">Dual Fan.lvclass</span>)&#8212;Represents a dual fan system.
+					<ul>
+						<li><strong>Simulated Dual Fan actor</strong> (<span class="DNL">Simulated Dual Fan.lvclass</span>)&#8212;Simulates a dual fan system.</li>
+						<li><strong>Hardware Dual Fan actor</strong> (<span class="DNL">HW Dual Fan.lvclass</span>)&#8212;Communicates with a real dual fan system.</li>
+					</ul>
+				</li>		
+			</ul>	
+		</li>
+		<li><strong>Cooler Controller actor</strong> (<span class="DNL">Cooler Controller.lvclass</span>)&#8212;Controls a Cooler actor.
+			<ul>
+				<li><strong>Evaporative Cooler Controller actor</strong> (<span class="DNL">Evaporative Cooler Controller.lvclass</span>)&#8212;Controls an Evaporative Cooler actor.
+					<ul>
+						<li><strong>Live User Controller actor</strong> (<span class="DNL">Live User Controller.lvclass</span>)&#8212;Displays a user interface for controlling an Evaporative Cooler actor.</li>
+					</ul>
+				</li>
+				<li><strong>Programmatic Controller actor</strong> (<span class="DNL">Programmatic Controller.lvclass</span>)&#8212;Controls a actor by executing a pre-programmed sequence of desired temperatures.</li>
+			</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<p class="Body">This sample project uses the actors listed above to implement the following features:</p>
+<ul>
+	<li><strong>Hardware abstraction layer</strong> (HAL)&#8212;A HAL is a layer of software that enables you to write general instructions that can execute on a variety of specific targets. You send general commands to the HAL, which is programmed to interpret these general commands into specific ones that a target needs. To add a target, just provide the necessary interpretation of the general commands.<br><br>For example, GPIB and DAQ devices perform the same general operations (open task, write data, and so on); however, they each use a different API. You can design an application to send a general command to the HAL, which then sends the device-specific command to the target you select.<br><br>To demonstrate a HAL, this sample project includes actors that represent two evaporative coolers. Each actor performs the same task but in a different way. The simulated evaporative cooler reads a simulated fan status from a VI, whereas the hardware evaporative cooler reads a real fan status from an actual hardware device. The HAL is the software layer between these two actors and the programmatic interface. To add an evaporative cooler, define an actor that overrides the methods defined in the HAL and supplies the commands necessary for the evaporative cooler you want to add.</li>
+	<li><strong>Hot-swappable user interfaces</strong>&#8212;This sample project features two user interfaces &#8212; a live user interface that you can control and a pre-programmed controller you cannot. Each user interface is defined as an actor. Each actor receives the same messages but displays them differently. Because LabVIEW can dynamically start and stop actors, this sample project can stop one user interface and start the other, each time changing the way the messages are displayed.</li>
+
+</ul>
+
+<h2>Design Notes</h2>
+
+<h3>Hot-Swapping User Interfaces</h3>
+<p class="Body">The Swap Controllers method of the Air Cooler Application class swaps controllers without shutting the application down. Each controller has a different user interface. This method executes the following steps:</p>
+
+<ol>
+	<li>Breaks communication between the current controller and the cooler by giving invalid message enqueuer to the controller and the cooler. The cooler continues running because it is designed to continue running without a controller.</li>
+	<li>Launches the new controller.</li>
+	<li>Tells the cooler what the new controller is by giving the new controller's self-enqueuer to the cooler.</li>
+	<li>Tells the new controller what the cooler is by giving the cooler's self-enqueuer to the new controller.</li>
+	<li>Stops the old controller.</li>
+</ol>
+
+<p class="Body">While the application is running, you send the Swap Controllers message to the Air Cooler Application actor by clicking <strong>UI Option 1</strong> or <strong>UI Option 2</strong>.</p>
+
+<h3>Bypassing the Task Tree</h3>
+<p class="Body">This sample project intentionally breaks the task tree in one location. The Cooler and the Cooler Controller actors are on different branches of the task tree, but this sample project enables them to communicate directly with one another by sending each actor the self enqueuer of the other actor. This code is contained in the Actor Core method of the Air Cooler Application class.</p>
+
+<p class="Body">The reason for this direct line of communication is that, the way this sample project is designed, the controller and cooler actors are highly coupled to one another. A cooler needs a controller, and a controller needs a cooler. Sending messages through the Application actor is an unnecessary step.</p>
+
+<h3>Localizing User-Visible Strings</h3>
+<p class="Body">Centralizing user-facing strings into one VI minimizes the number of VIs whose user-visible strings must be translated or edited. Many actors in this application define a Localization VI, which acts as a look-up table to facilitate translating strings from one human language to another.</p>
+
+<h3>Loading Configuration Information into the Application</h3>
+<p class="Body">This sample project is designed to read configuration data from a file but, since the file will not always be necessary, to provide default values if the file is not present. The Read Config File method of the Air Cooler Application class reads <span id="Monospace">Air Cooler App.ini</span> to determine which evaporative cooler, simulated or real, to use. If this file does not exist, the default cooler is defined in the private data of the Air Cooler Application class.</p>
+
+<h3>Launching the Top-Level Actor but Releasing the Message Queue</h3>
+<p class="Body">The way this sample project is designed, the Application actor attempts to send only the standard Last Ack message to its caller, the Load App VI. In this situation, the sample project does not need to act on this message from the Application actor. Therefore, after obtaining the message queue and using it to launch the Application actor, the Load App VI immediately releases the message queue. This action prevents the Application actor from communicating with its caller.</p>
+
+<h3>Ignoring Recipient Type When Sending a Message</h3>
+<p class="Body">This sample project contains a few messages that do not check whether the recipient is of the proper type. For example, the Do VI of the Update Pump State Message class instructs an Evaporative Cooler actor to invoke its Update Fan Status method. If the recipient of the message is not an Evaporative Cooler, the message is sent, but the receiving actor does not report an error. This design is acceptable because the message being sent is a status message and therefore is not important.</p>
+<p class="Body">Because most messages are designed to be received by a specific type of actor, this design contrasts from the typical design of a Do VI, which first checks to see whether the recipient is of the proper type. If this check fails, the Do method returns the error from the To More Specific Class function, reporting it to the Handle Error method of the actor. Most message classes are designed this way to prevent, for example, a DAQ command from being sent to an actor that can understand only GPIB commands.</p>
+
+<h3>Obtaining Resources for an Actor Before the Actor Launches</h3>
+<p class="Body">This sample project assigns a unique numeric ID to every Timed Loop actor in a way that meets the following conditions:</p>
+<ul>
+	<li>The assignment is guaranteed to be executed by all Timed Loop actors as they start</li>
+	<li>The assignment is guaranteed to happen before any of the actor's methods can execute, so the methods can all assume this assignment happened</li>
+	<li>If the assignment is not possible for some reason, the actor shuts down</li>
+</ul>
+
+<p class="Body">The Pre Launch Init method of the Actor class meets all of these conditions; therefore, the unique assignment happens in this method.</p>
+
+<h3>Designing Actors for Reuse</h3>
+<p class="Body">The Dual Fan actor is designed to be reused with any kind of caller, not just the one defined in this sample project. For example, the Dual Fan class in this sample project is used by an evaporative cooler but could be called by a car motor, a hard drive, or a similar device that requires cooling.</p>
+
+<p class="Body">To achieve this level of reuse, the Dual Fan actor is designed to send messages to its caller without knowing the type of the caller. In the Actor Framework, this relationship is called the Zero-Coupling Pattern. This pattern is achieved by using what is known as an <em>abstract message</em> instead of a typical message. An abstract message is a message that has the basic setup of a message but lacks the instructions for what the caller does when it receives the message. Instead, each type of caller provides the actor with a set of instructions for that caller.</p>
+
+<p class="Body">The following procedure uses the Dual Fan actor, its abstract message, and its caller as an example of the Zero-Coupling Pattern:</p>
+
+<table class="Bordered">
+<tr>
+	<th class="Bordered">Step</th>
+	<th class="Bordered">In this Sample Project</th>
+</tr>
+<tr>
+	<td class="Bordered">1. An abstract message is created. This is the message type that the actor will send to its caller.</td>
+	<td class="Bordered">The abstract message is the Update Fan Status Msg class. Its Send Update Fan Status method contains an <strong>Update Msg Object</strong> input.
+	
+	<table class="Borderless"><tr><td class="Icon"><img src="noloc_note.png"></td><td><strong>Note</strong>&nbsp;&nbsp;In the <strong>Project Explorer</strong> window, notice this class does not have a Do method. Normally, all messages have a Do method because all messages descend from the ancestor Message class, which specifies that descendants must override its Do method. However, the Update Fan Status Msg class transfers this requirement to <em>its</em> descendants. To view this setting, right-click the class, select <strong>Properties</strong>, and select the <strong>Inheritance</strong> page. The <strong>Transfer all Must Override requirements to descendant classes</strong> checkbox contains a checkmark.</td></tr></table>
+	
+	</td>
+</tr>
+<tr>
+	<td class="Bordered">2. An actor is designed with a placeholder that will contain instructions for its caller.</td>
+	<td class="Bordered">The actor is the Dual Fan class. The placeholder is the <strong>Update Msg</strong> element, which is defined in the cluster of private data available to the Dual Fan class.</td>
+</tr>
+<tr>
+	<td class="Bordered">3. An actor is designed with a method that, when invoked, fills in this placeholder.</td>
+	<td class="Bordered">The Dual Fan actor has a Write Update Fan Status Message method.</td>
+</tr>
+
+<tr>
+	<td class="Bordered">4. A child of the abstract message is created. The child contains a Do method that is specific to the caller.</td>
+	<td class="Bordered">The descendant is the Cooler Update Fan Status Msg class. It contains the Do method that is executed when the message is received. The caller is the Evaporative Cooler class; therefore, this Do method is specific to an actor of the Evaporative Cooler type.</td>
+</tr>
+<tr>
+	<td class="Bordered">5. The caller invokes the method that fills in the placeholder of the actor.</td>
+	<td class="Bordered">The caller is the Evaporative Cooler class. Its Actor Core method invokes the Write Update Fan Status Message method. This invocation fills <strong>Update Msg</strong> with an object of the Cooler Update Fan Status Msg class.</td>
+</tr>
+<tr>
+	<td class="Bordered">6. The caller launches the actor.</td>
+	<td class="Bordered">The caller is the Evaporative Cooler class. Its Actor Core method launches the Dual Fan actor.</td>
+</tr>
+<tr>
+	<td class="Bordered">7. The actor sends the abstract message to the caller. When the caller receives the message, it executes the Do method of the message. The Do method was created in step 4 and given to the actor in step 5.</td>
+	<td class="Bordered">The Update Caller method of the Dual Fan class sends the Update Fan Status Msg class to the Evaporative Cooler actor. This message carries with it the Cooler Update Fan Status Msg class, which contains instructions for the Evaporative Cooler actor on how to process the message.</td>
+</tr>
+</table>
+
+<p class="body">Designing an actor for reuse introduces some programming complexity. However, the benefit of this design is that you can reuse the actor with any type of caller. Because the actor has a placeholder designed to be filled in by a caller, you create one descendant of the abstract message class for each type of caller. Each type of caller fills in the placeholder with a message the caller can understand.</p>
+
+<a name="rel_info">
+<h2>Related Information</h2></a>
+
+<p class="Body">Refer to the <em>LabVIEW Help</em>, available by selecting <strong>Help&#0187;LabVIEW Help</strong> from LabVIEW, for information about LabVIEW concepts or objects used in this template. You also can use the <strong>Context Help</strong> window to learn basic information about LabVIEW objects as you move the cursor over each object. To display the <strong>Context Help</strong> window in LabVIEW, select <strong>Help&#0187;Show Context Help</strong>.</p>
+
+<p class="Body">Refer to <a href="javascript:WWW(L_walkthrough)">ni.com</a> for a developer walkthrough of the Actor Framework template.</p>
+
+<p class="Body">This sample project is based on the Actor Framework template. Refer to the Actor Framework template and its documentation, available from the <strong>Create Project</strong> dialog box, for information about how this template works.</p>
+
+<h3>Further Reading</h3>
+<ul>
+	<li><a href="javascript:WWW(L_abstract)">Abstract data types</a></li>
+	<li><a href="javascript:WWW(NO_LOC_AF_Community)">Actor Framework community discussion</a></li>
+	<li><a href="javascript:WWW(L_calling_convention)">Calling convention</a></li>
+	<li><a href="javascript:WWW(L_evap_coolers)">Evaporative coolers</a></li>
+	<li><a href="javascript:WWW(L_HAL)">Hardware Abstraction Layers in LabVIEW: How to Mitigate Hardware Obsolescence in Next-Generation Test Systems</a></li>
+	<li><a href="javascript:WWW(L_hot_swapping)">Hot swapping</a></li>
+	<li><a href="javascript:WWW(NO_LOC_Large_Apps)">Large LabVIEW Application Development community discussion</a></li>
+	<li><a href="javascript:WWW(NO_LOC_MAL_MVC)">Measurement Abstraction and Model-View-Controller (MVC) Project with Actor Framework in LabVIEW</a></li>
+	<li><a href="javascript:WWW(L_mvc)">Model-view-controller pattern</a></li>
+</ul>
+
+<h3>NI Training and Certification</h3>
+<ul>
+	<li><a href="javascript:WWW(L_Adv_Arch)">Advanced Architectures in LabVIEW</a></li>
+	<li><a href="javascript:WWW(L_Core_3)">LabVIEW Core 3</a></li>
+	<li><a href="javascript:WWW(L_OO_Design)">Object-Oriented Design and Programming in LabVIEW</a></li>
+</ul>
+
+<hr>
+<h2>Legal Information</h2>
+<!--Copyright-->
+<p class="Body"><strong>Copyright</strong></p>
+<p class="Body">&#0169; 2014 National Instruments. All rights reserved.</p>
+
+<p class="Body">Under the copyright laws, this publication may not be reproduced or transmitted in any form, electronic or mechanical, including photocopying, recording, storing in an information retrieval system, or translating, in whole or in part, without the prior written consent of National Instruments Corporation.</p>
+
+<p class="Body">National Instruments respects the intellectual property of others, and we ask our users to do the same.  NI software is protected by copyright and other intellectual property laws.  Where NI software may be used to reproduce software or other materials belonging to others, you may use NI software only to reproduce materials that you may reproduce in accordance with the terms of any applicable license or other legal restriction.</p>
+
+<p class="Body"><strong>End-User License Agreements and Third-Party Legal Notices</strong></p>
+<p class="Body">You can find end-user license agreements (EULAs) and third-party legal notices in the following locations:</p>
+<ul>
+<li>Notices are located in the <span class="Monospace">&lt;National Instruments&gt;\_Legal Information</span> and <span class="Monospace">&lt;National Instruments&gt;</span> directories.</li> 
+<li>EULAs are located in the <span class="Monospace">&lt;National Instruments&gt;\Shared\MDF\Legal\license</span> directory.</li>
+<li>Review <span class="Monospace">&lt;National Instruments&gt;\_Legal Information.txt</span> for information on including legal information in installers built with NI products.</li>
+</ul>
+
+<p><strong>U.S. Government Restricted Rights</strong></p>
+<p>If you are an agency, department, or other entity of the United States Government ("Government"), the use, duplication, reproduction, release, modification, disclosure or transfer of the technical data included in this manual is governed by the Restricted Rights provisions under Federal Acquisition Regulation 52.227-14 for civilian agencies and Defense Federal Acquisition Regulation Supplement Section 252.227-7014 for military agencies.</p>
+
+<p><strong>IVI Foundation Copyright Notice</strong></p>
+
+<p><span class="DNL">Content from the IVI specifications reproduced with permission from the IVI Foundation.</span></p>
+
+<p><span class="DNL">The IVI Foundation and its member companies make no warranty of any kind with regard to this material, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The IVI Foundation and its member companies shall not be liable for errors contained herein or for incidental or consequential damages in connection with the furnishing, performance, or use of this material.</span></p>
+
+<!--Trademarks-->
+<p class="Body"><strong>Trademarks</strong></p>
+
+<p>Refer to the <em><span class="DNL">NI Trademarks and Logo Guidelines</span></em> at <a href="javascript:WWW(WWW_Trademark)">ni.com/trademarks</a> for more information on <span class="DNL">National Instruments</span> trademarks.</p>
+
+<p class="Body">Other product and company names mentioned herein are trademarks or trade names of their respective companies.</p>
+
+<!--Patents-->
+<p class="Body"><strong>Patents</strong></p>
+<p>For patents covering the National Instruments products/technology, refer to the appropriate location: <strong>Help&#0187;Patents</strong> in your software, the <span class="Monospace">patents.txt</span> file on your media, or the <em>National Instruments Patent Notice</em> at <a href="javascript:WWW(WWW_Patents)">ni.com/patents</a>.</p>
+</body>
+</html>
